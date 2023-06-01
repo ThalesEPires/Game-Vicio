@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.titulo {
+    font-size: 30px;
+    font-family: pacifico, cursive;
+}
+
+#cabecalho {
+    background-color: rgb(238, 146, 42);
+}
+
+#cabecalho .nav .nav-link {
+    color: black;
+    margin: 5px;
+    background-color: #818181;
+}
+
+#novidades,
+#dicas {
+    background-color: #818181;
+}
+
+#avaliacoes,
+#fale-conosco {
+    background-color: #4d4d4d;
+}
+
+.text-colored {
+    color: rgb(250, 133, 0);
+}
+
+.btn-color {
+    background-color: rgb(250, 133, 0);
+    color: #000;
+    border: none;
+}
+
+.btn-color:hover {
+    background-color: rgb(236, 178, 111);
+    color: #000;
+}
+
+.endereco {
+    color: #000;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+h3, h5, p {
+    color: #000;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Vício</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="cabecalho">
+        <div class="container pt-3 pb-3">
+            <h1 class="navbar-brand section-title fw-bold titulo">Game Vício</h1>
+            <button class="navbar-toggler" data-bs-toggle="colapse">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#novidades" class="nav-link">
+                            <i class="bi bi-newspaper me-1"></i>
+                            Novidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#avaliacoes" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Avaliações
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#dicas" class="nav-link">
+                            <i class="bi bi-mic me-1"></i>
+                            Dicas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="novidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-100 d-block" src="imagens/valorant1.jfif" alt="">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100 d-block" src="imagens/slide2.jpg" alt="">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100 d-block" src="imagens/twitch.avif" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-4 pb-4">
+                <div class="container">
+                    <h2 class="fw-bold text-center text-colored">Novidades</h2>
+                    <h5>Fique por dentro das novidades no mundo dos jogos</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="d-block w-100" src="imagens/valorant1.jfif" alt="valorant">
+                            <h3 class="fw-bold">Nova atualização no Valorant</h3>
+                            <p>Saiu hoje a nova atualizaçãodo valorant, com novos conteúdos e correções para o jogo</p>
+                            <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="d-block w-100" src="imagens/twitch.avif" alt="valorant">
+                            <h3 class="fw-bold">O maior da Twitch</h3>
+                            <p>Hoje um streamer brasileiro bateu o recorde de espectadores simultâneos da Twitch</p>
+                            <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="avaliacoes" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="fw-bold text-center text-colored">Avaliações</h2>
+                <h5>Confira as nossas Avaliações sobre alguns títulos</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="imagens/minecraft1.jpg" alt="Minecraft">
+                        <h3 class="fw-bold">Minecraft</h3>
+                        <p>Avaliamos o jogo completo, clique para saber mais</p>
+                        <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="imagens/fortnite1.jfif" alt="Fortnite">
+                        <h3 class="fw-bold">Fortnite</h3>
+                        <p>Avaliamos o jogo completo, clique para saber mais</p>
+                        <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="imagens/leagueoflegends.webp" alt="League of Legends">
+                        <h3 class="fw-bold">League of Legends</h3>
+                        <p>Avaliamos o jogo completo, clique para saber mais</p>
+                        <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dicas" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="fw-bold text-center text-colored">Dicas</h2>
+                <h5>Algumas dicas para você se sair melhor em alguns jogos</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="imagens/gta5.webp" alt="GTA 5">
+                        <h3 class="fw-bold">GTA 5</h3>
+                        <p>Algumas dicas ficar rico no GTA 5</p>
+                        <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="imagens/fortnite1.jfif" alt="Fortnite">
+                        <h3 class="fw-bold">Fortnite</h3>
+                        <p>Dicas para jogar melhor o Fortnite</p>
+                        <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100" src="imagens/discordlogo2.png" alt="Discord">
+                        <h3 class="fw-bold">Discord</h3>
+                        <p>Aprenda a configurar o seu Discord para jogar melhor com os seus amigos</p>
+                        <button class="btn btn-primary fw-bold btn-color" >Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center fw-bold text-colored">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold btn-color">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class="endereco">
+                                Rua dos jogos N°123  -  Jogolandia  -  GO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="bootstrap.bundle.min.js" ></script>
+</body>
+</html>
